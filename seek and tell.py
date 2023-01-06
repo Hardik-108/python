@@ -1,0 +1,7 @@
+x=open("abc.txt")
+# print(x.tell())
+print(x.readline())
+x.seek(10)
+# print(x.tell())
+print(x.readline())
+x.close()
